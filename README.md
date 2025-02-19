@@ -1,10 +1,10 @@
-Abby - Lingual
+*Abby - Lingual*
 
-Project Overview
+*Project Overview*
 
 This project aims to develop a multilingual chatbot capable of interacting with users in any of the official South African languages. It serves as a prototype for Absa South Africa's existing chatbot, Abby, which currently only supports English for responses and interactions.
 
-Model Architecture
+*Model Architecture*
 
 The chatbot integrates four key models to achieve seamless multilingual communication:
 
@@ -20,32 +20,24 @@ A speech language detector that identifies the spoken language.
 
 A transcription model that converts recorded speech into text before passing it to the LLama model for processing.
 
-Deployment
+*Deployment*
 
 The chatbot is deployed using Streamlit, ensuring an interactive and user-friendly interface.
 
-Key Features
+*Key Features*
 
-Supports multiple South African languages.
+* Supports multiple South African languages.
 
-Detects both text and spoken input languages automatically.
+* Detects both text and spoken input languages automatically.
 
-Provides real-time translations for seamless communication.
+* Provides real-time translations for seamless communication.
 
-Offers a simple and intuitive user interface via Streamlit.
+* Offers a simple and intuitive user interface via Streamlit.
 
-Installation & Usage
+*Future Improvements*
 
-Clone the repository.
+* Enhancing translation accuracy for local dialects.
 
-Install the required dependencies.
+* Improving speech-to-text recognition for better user experience.
 
-Run the Streamlit app to interact with the chatbot.
-
-Future Improvements
-
-Enhancing translation accuracy for local dialects.
-
-Improving speech-to-text recognition for better user experience.
-
-Integrating additional AI models for better contextual understanding.
+* Integrating additional AI models for better contextual understanding.
