@@ -8,17 +8,17 @@ This project aims to develop a multilingual chatbot capable of interacting with 
 
 The chatbot integrates four key models to achieve seamless multilingual communication:
 
-LLama Model (by Facebook) – This model provides human-like interaction capabilities, forming the core of the chatbot’s conversational abilities.
+* LLama Model (by Facebook) – This model provides human-like interaction capabilities, forming the core of the chatbot’s conversational abilities.
 
-Google Translator – Since the LLama model has limitations in supporting South African languages, this translator bridges the gap by translating input and output messages to and from the LLama model.
+* Google Translator – Since the LLama model has limitations in supporting South African languages, this translator bridges the gap by translating input and output messages to and from the LLama model.
 
-South African Language Detector – A custom-trained model designed to detect the language used by the user. It assigns the correct language code to Google Translator for accurate translation. (The trained model is available on my profile.)
+* South African Language Detector – A custom-trained model designed to detect the language used by the user. It assigns the correct language code to Google Translator for accurate translation. (The trained model is available on my profile.)
 
-Google Speech-to-Text Services – This includes:
+* Google Speech-to-Text Services – This includes:
 
-A speech language detector that identifies the spoken language.
+- A speech language detector that identifies the spoken language.
 
-A transcription model that converts recorded speech into text before passing it to the LLama model for processing.
+- A transcription model that converts recorded speech into text before passing it to the LLama model for processing.
 
 *Deployment*
 
