@@ -1,6 +1,6 @@
 streamlit_chat
 numpy
 tensorflow
-speech_recognition
+SpeechRecognition
 langchain
 deep_translator
